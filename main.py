@@ -7,7 +7,7 @@ import re
 pyt.pytesseract.tesseract_cmd = 'Tesseract/tesseract.exe'
 
 
-image = cv2.imread('test1.jpg')
+image = cv2.imread('test.jpg')
 image = im.resize(image, width=300)
 
 cv2.imshow("Original Image", image)
